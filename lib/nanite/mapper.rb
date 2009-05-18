@@ -18,6 +18,7 @@ module Nanite
   # failures.
   class Mapper
     include AMQPHelper
+    include FileStreaming
     include ConsoleHelper
     include DaemonizeHelper
 
